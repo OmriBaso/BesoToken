@@ -38,6 +38,6 @@ PS C:\Users\stronglocal\Desktop> .\BesoToken.exe exec 6876 cmd interactive
 
 
 # Credeits  
-1.The CPP Code was written by Omri Baso  
-2. Most of the research work was done by my Co-Worker [Yair Mentesh](https://www.linkedin.com/in/yair-mentesh/), Here is his [C# Implementation](https://github.com/Yair-Men/TokenMen) of the tool  
-3. A Microsoft [blog post](https://learn.microsoft.com/en-us/previous-versions/aa379608\(v=vs.85\)) that helped me a lot was 
+1.The CPP code was written by Omri Baso  
+2. Most of the research work was done by my co-worker [Yair Mentesh](https://www.linkedin.com/in/yair-mentesh/) thank you for your amazing work, Here is his [C# Implementation](https://github.com/Yair-Men/TokenMen) of the tool  
+3. A Microsoft [blog post](https://learn.microsoft.com/en-us/previous-versions/aa379608\(v=vs.85\)) that helped me a lot. 
