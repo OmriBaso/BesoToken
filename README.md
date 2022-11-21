@@ -15,8 +15,7 @@ After using the `interactive` flag you can see that we are able to laucnch a new
 
 ![image](https://user-images.githubusercontent.com/50461376/203030730-5220cadf-4f23-4483-8f9b-ba678548da92.png)  
   
-Obviously the tool can also list available tokens but this can also be done using `tasklist /v` to view process which are running with the user  
-you want to impersoante.  
+Obviously the tool can also list available tokens but this can also be done using `tasklist /v` to view process which are running with the user you want to impersoante.  
 Example usage:  
 ```powershell
 PS C:\Users\stronglocal\Desktop> .\BesoToken.exe exec 6876 cmd interactive
