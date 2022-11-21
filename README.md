@@ -3,17 +3,18 @@ A tool to Impersonate logged on users without touching LSASS (Including non-Inte
 
 # Usage / Explaination  
 Usually when a CreateProcessWithTokenW is used to start a process as a user who does not have an interactive sessions, the ACLs to the Window Object (Desktop)  
-are not set correctly, open a new CMD using this kind of token will resukt in somthing like the following:  
+are not set correctly, open a new CMD using this kind of token will result in somthing like the following:  
 
 ![image](https://user-images.githubusercontent.com/50461376/203029688-d56ac57e-520b-483c-ba5a-dbe914fdd45a.png)  
   
 We have a blank CMD which is not interactive due to insufficent ACL Permissions for `winsta0` and the `default` window objects, this got us  
 to a point where we needed a tool that fixes the problem and gives us an interactive cmd session, this is pretty useful when you are in an  
-engagement and you have an RDP session and you want to lauch a new sessions as another logged on Domain Adminm, obviously this tool requires `Local Administrator` privileges.  
+engagement and you have an RDP session and you want to lauch a new sessions as another logged on Domain Admin, obviously this tool requires `Local Administrator` privileges.  
 After using the `interactive` flag you can see that we are able to laucnch a new interactive CMD  
+  
 
 ![image](https://user-images.githubusercontent.com/50461376/203030730-5220cadf-4f23-4483-8f9b-ba678548da92.png)  
-
+  
 Obviously the tool can also list available tokens but this can also be done using `tasklist /v` to view process which are running with the user  
 you want to impersoante.  
 Example usage:  
